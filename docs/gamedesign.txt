@@ -1,0 +1,443 @@
+Overview
+===========================================================
+
+The Galaxy in yours to explore and conquer! In Event Horizon, you play as a
+newly minted space captain ready to make his or her way through out the space
+lanes, in which ever way you want. You start out with a small cargo hauler
+barely worthy of its name, and an old friend who will show you the ropes of
+being a space captain. From there on out, you are free to do whatever you want!
+
+And remember that you are not alone! While Event Horizon can be played as 
+single player game, it is much more fun to host a server and allow other players
+to exist in your world! Event Horizon does not aim to be a centrally hosted
+MMO - rather anybody can create a galaxy and have up to 100 people playing in
+it at any time.
+
+Players can take on multiple roles in this game. Combat is (and probably 
+always will be) a central focus of the game. You can purchase ships, outfit
+them with weapons, equipment and features. From there you can take on quests,
+join an empire or a faction, hunt down pirates, take bounties or hunt down
+non lawabiding ship captains. You can always build highly customizable ships,
+and upgrade your weapons, equipment and other aspects of your ship by purchasing
+or discovering tech upgrades.
+
+Combat will be deep, and customizable - there should be many valid strategies
+for this game. Combat will be fun and always a blast to watch. Additionally
+there will be new encounteres, so the combat should never get old! Who doesn't
+want to watch a carrier explode into a thousand fragments?
+
+Besides combat, there are many other things to accomplish in this game - you
+could easily spend the entire time trading! At its simplest, you purchase
+goods at one planet and sell them to another. Maybe you get some minerals from
+Episilon, reprocess them on Feros and then sell them for a huge markup on Tir?
+Or maybe you get wind of a illegitimate cache of vids, track them down and
+sell them on the open market! You can purcahse futures and sell futures on the
+market. Or list any thing you would like to have on the market, and track down
+orders to fulfill.
+
+Don't like trading? How about resource collection? Everything in the game 
+rquires resources, so it'll be up to players to collect resources. (Even if
+they don't, some will always be available AND automated AI will collect).
+Different systems have different resources - find gas fields, asteroids or
+wrecks and harvest resources from them. Find a particuarly huge field? Build
+a collection station there, and harvest even more without having to wait!
+
+Okay you don't like any other above - or maybe you want something different
+for the time being. How about exploration, AND getting paid for it? When the
+universe is creatd, only 50% or so of everything is actually revealed.
+Everything else must be discovered - some planets are hidden, lots of asteroids
+are hidden, resource fields lay waiting to be discovered, ancient ruins 
+containing valuable artifacts (sold for $$$!), and undiscovered tech! Or
+ruins that may have valuable goods, tech and other things.
+
+Did you know there are wormholes in this world, with entire new networks to
+discover and claim? Bec careful - things are often dangerous and deadly when
+heading into unknown space! There are rumors some wormholes lead to entirely
+different "space" with vast riches and even deadlier races.
+
+And once you've down enough trading or combat, you're probably getting sick of
+the tediousness of it? Thats when you form your own faction / corp, and build
+your own empire! Traders can purchase more ships, set up automated instructions
+and let them lose! Or combat-savvy individuals can purchase drones that follow
+their instructions. 
+
+Once you've built up your empire even further, you'll probably want to consider
+expanding your empire even further! Start building stations and outposts,
+these will allow you to build and sell ships, weapons, and more! You can 
+research tech, control systems or even system networks! Claim soveringhty! 
+And eventually conquer the galaxy!
+
+Gameplay Features
+===========================================================
+	0. Ships
+		- Players control a ship (this is their "character", though they
+ 		  can build an avatar)
+		- Players can _own_ multiple ships
+		- Ships can be organized into fleets that can be controlled as a
+		  single unit (useful for factions, defending areas, etc)
+			- These can be custom given orders
+		- Players can give their ships orders to be carried out
+			- use: Build a trade ship that purchases goods at X and
+			       sells them at Y
+		- There are many different types of ships
+		- Ships can be heavily customized in many different ways
+			- Schematics teach a player how to build something
+				- Can be given to a shipyard / faction
+		- Ships can be built and resold
+		- Ships can be damaged
+			- Their componenets could be damaged, possibly lost
+		- Ship classes
+			- Class I: Small single seat ships. $ = 1
+			- Class II: Smaller ships, frigate sized $ = 10
+			- Class III: Cruiser level, warships $= 100
+			- Class IV: Battleship level, HUGE $ = 1000
+			- Class V: Super level, MASSIVE $ = 10000
+			- Ships get very expensive as they get up in level,
+			  however their power also starts going up even more
+				- Ship weapons are excellent at targeting
+				  certain classes
+				- So Class IV may have hard time with lots of
+				  Class II, even though Class II may not pose
+				  a huge threat
+			- A player who has played 50 hours should be able to
+			  afford a class III
+			- A player who has player well over 100 (200) hours
+			  should be able to afford a class V, several class IV,
+			  or multiple (10) class III
+			- Don't want the game to a HUGE time sink, but also
+			  need to keep new features trickling in constantly
+		- Components
+			- Components have multiple classes, they start at
+			  class I.
+			- Component specs can vary within their classes, but
+			  these are usually tradeoffs between different stats
+			  and / or $$$
+			- Higher classes represent a significantly higher
+			  investment
+	0. Ship Components
+		- Capacitor
+			- This is what provides "burst" energy for a ship. Is
+			  continually recharged, but large drains slow recharges
+			  down for a longer time period. No drains allows for
+			  much faster recovery.
+			  (Basically faster derivative of rate of change affects
+			   recharge times)
+			- This is charged through the engine
+				- Better engine more recharge power
+	0. Combat
+		- Ships can engage in warfare amongst each other
+		- In policed systems, unauthorized combat will get you attacked
+		- There are pirates
+		- Different types of weapons for ships
+			- Projectiles
+			- Missiles
+			- Lasers
+		- Eletronic warfare?
+		- Ships can be cloaked (they show up visually when close enough)
+		- Targets can be tracked and locked on (no need to line up?)
+			- Use keybindings to fire specific weapons, line up, etc
+			- "press tab to select target, press 1 to fire cannon"
+			- "press shift+tab 5 to select five targets, press 2 to
+			   fire missiles"
+			- leaves players in control of ship, so they can move
+			  around and dodge projectiles
+			- maybe give targeting a delay to allow some players 
+			  advantage if good at manually lining up shots
+				- decrease delay with hardware?
+				- better target selection with hardware?
+			- players could just click their targets to track,
+			  no delay then
+			- or set it up so that certain weapons automatically
+			  track and fire weapons once "weapons free"
+				- players set which weapons automatically fire
+				- players set at most how much ammo used
+				- hardware selects best target for weapon
+		- When you die you lose your ship
+			- Insurance on your ship will return 40% of your
+			  investment on the ship
+				- This can be increased by buying more
+				- Insurance good for certain areas
+					- Pay more for low sec areas
+					  (otherwise not refunded)
+			- Goods you are carrying are NOT insured by default
+			- A random amount of your goods are scattered when you
+			  die (looters can kill you)
+		- Players can place bounties out
+			- If target player has legality < 0, this can be
+			  "lawfully" collected
+			- Purchasers put in whatever rewards they want
+	0. Movement
+		- Players control their ships movement with WASD. A is
+		  accelerate, S is de-accelerate (maybe not possible??), A and
+		  D is to turn
+		- Players can right click their empty space to have their ship
+		  automatically go there
+		- Players can right click objects and select 'go to', 'orbit',
+	1. Resource Collection
+		- Mine asteroids for minerals
+		- Salvage space wrecks for parts/minerals/money
+		- Space dust fields can be harvested
+		- Large "minable" fields (that can have buildings) are rare
+		- One-shot resource collections (these have finite # of
+		  resources to be collected) are more common, and regenerated
+		  in new areas
+		- Randomly generated over days, keep things moving
+		- Siginficantly better findings in lower security, zero security
+		  areas
+			- but there is no law!
+			- and pirates are abound!
+			- some areas even have aliens!
+	2. Discover tech
+		- Alien wrecks? Aliens?
+	3. Trading
+		- Planets and stations can produce or manufacture goods
+		- Players can purchase these and sell them to another place
+		- There is a stock market with futures trading?
+		- AI also tries to do trading
+			- You can raid their ships if you'd like!
+		- World wide market place where players (and AI!) can place
+		  purchase orders to be fulfilled
+			- Things like resources, ships, tech, bounties, etc
+	4. Construction
+		- Players can build mining stations the produce goods
+			- Build on a planet, asteroid belt, space dust
+			- They can resell this to other players
+			- They can collect it and resell themselves
+			- Can create drone ships that automate movement goods
+			- Produces maximum X resources / day
+		- Players can build ship yards
+			- Builds ships
+			- Charge players
+			- Dock extra ships
+		- Players can build generic "platforms" that house one or more
+			- ship yards
+			- barracks
+			- defenses
+			- mining facilities
+			- production facilities
+			- goods storage
+		- This allows players to construct their own baes or "housing"
+			- Can be owned by a player or faction
+			- Access can be allowed to ceratin players, factions
+			- Access can be controlled to specific things
+			- These facilities can be lost!!!
+				- But its very hard to lose them (lots of HP)
+				- Should have built in defenses
+				- Should have a fleet defending large bases
+				- Again, can be insured for $$$
+			- Players could try to hide them in rarely visited
+			  systems, special gates, etc
+	5. Planets and stations
+		- Planets have resources and production facilities
+		- Planets have demands for goods
+		- Planets have stores
+			- Ship yards
+			- Weapons
+			- Tech
+			- Etc
+		- "Inns" where players can reset, get drinks (not real purpose),
+		  get quests and meet people
+		- A station/planet has "slots" for
+			- Control tower
+			- Weapons systems (turrets, missile batteries)
+			- Construction yard
+			- Ship maintence
+			- Hangers
+			- Electronic warfare batteries
+			- Sensors
+			- Communications
+			- Jump bridges
+			- Shields
+			- Manufactoring arrays
+			- Laboratiories
+			- Mining / Harvesting arrays
+			- Reactor arrays
+				- requires fuel
+			- Refining arrays
+			- Silos / Warehouses
+			- Upgrades allow more space
+				- Class I: 5 slots
+				- Class II: 10 slots
+				- Class III: 15 slots.
+				- Class V: 25 slots
+			- Can only build a few things on an outpost
+		- Stations can actually be towed
+		- A system may charge fees for anchoring a station
+			- These fees increase with system popularity / SS
+		- Outposts are even bigger stations
+			- Allow many more slots, much higher class buildings
+			- These are "big deals"
+			- Upgrades allow more space
+				- Class I: 50 slots
+				- Class II: 75 slots
+				- Class III: 125 slots
+				- Class IV: 200 slots
+				- Class V: 300 slots
+			- Outposts cannot be destroyed, though they can be
+			  damaged (slots destroyed) and even disabled
+			- Outposts can be captured
+			- Respawn stations
+		- Planets are almost identical to outposts in being "dig deals",
+		  but they have more of everything (they are also harder to
+		  hide)
+	6. Quests
+		- Players can take on quests, and earn awards for completing
+		  them
+		- These quests can be part of over-arching storylines
+		- Pirate hunting
+		- Property destruction, alient hunting, rebels
+		- Trading (purchase me X)
+		- Defend Y
+		- Can get special tokens, redeemable for specific rewards
+	7. Factions
+		- Players can join factions
+			- Can be promoted
+			- Get special awards, access rights, etc
+		- Factions can control just about anything, and limit access
+			- Planets
+			- Stations
+			- Systems
+			- etc
+		- Players can create factions
+		- Players with correct authority can recruit others, promote them
+		- Ranks have different authorities to do something
+		- Factions can offer quests to non-faction members, increases
+		  standing with that faction, lowers it with faction enemies
+		- Factions offer many "members only" things
+		- Have to building "housing" to get more members in the
+		  faction
+			- Stations / outposts allow you to add even more
+			  and add quite a bit by default
+		- Can recruit "AI" players as well
+	7a Races / Empires
+		- Playeres belong to one empire
+	8. Warping
+		- To move between systems, players use "warps"
+		- A player can (by himself) warp between two adjacent systems
+			- This uses fuel! Must replenish every once in awhile
+		- Jump / Warp gates are stationary gates that exist in certain
+		  systems
+			- Connects to a "network" of gates not nec. adjacent
+			- Faster travel
+			- Networks do not need to be interconnected
+			- Can be controlled to prevent use
+			- Can be contructed at great cost
+			- Can be towed around
+			- Could be captured or destroyed
+			- Access controll is possible by owner
+
+MISC:
+	- There are undiscovered systems in the galaxy.
+		- Some are reached through unmapped jump gates
+		- Others must be randomly discovered when players build their
+		  own jump gate (galactic coordinates provided to jump gate)
+		- These undiscovered systems should have random coordinates
+		  to prevent cheating
+			- Fixed upon creation, that way if you lose you warp
+			  gate you can rebuild it
+			- Other players may be able to discover it!
+	- You can make money exploring too!
+		- Find new planets $
+		- Find new systems $$$$$
+		- Find alien wrekcs $$$
+		- Find and mark resource nodes, can be sold for $$$
+		- Probe for resources
+	- Random wormholes
+		- Leads randomly to
+			- Charted system in galaxy
+			- Uncharted system in galaxy
+			- Uncharted system in wormhole space
+		- Wormhole space cannot be addressed from known space
+			- BUT you can address other direction
+			- Construct a warp gate and take it with you if you
+			  really want a place that is hidden
+		- Wormhole space always has at least one exit
+		- Wormhole space may have more than one system to discover
+		- You discover wormholes with properly upgraded sensor probes
+		- Wormholes can collapase with X amount of time, X amount of
+		  uses, X amount of mass
+			- random too!
+		- Wormhole space totally separate from known space
+			- chat doesn't work, markets don't work, etc.
+			- *unless* you install a warp gate with communication
+			  beacon
+		- Can contain deadly ancient wrecks, or possibly have a
+		  dangerous enemy race
+			- Or you could just die
+			- Or even be stranded! (that would suck)
+			- Tiny chance of wormhole collapasing with you in it
+			  (<1%)
+		- Higher chance of higher # of higher concentration of rarer
+		  minerals
+		- Unique minerals
+		- Unique tech
+		- Wormhole space may have different properties
+			- Slower/faster shield recharge, shield strength
+			- Slower/faster hull recharge
+			- Slower/faster capacitor recharge
+			- Better/worse scanner detection ranges
+			- Better/worse cloaking ability
+			- Better/worse communication delay
+			- Targeting range bonus
+			- Tracking speed bonus
+			- Damage change
+			- AOE damage range/damage
+			- Speed change
+			- Agility change
+			- Electronic warfare
+			- Communication in system
+				- possibly distortion? "te12#x wo!@#! be like
+				  thi@!#AS" 
+		- Higher probability of rare phenonemon
+		- Higher probability of deadly phenonemon
+	- Electronic Warfare
+		- Equipment that attempts to mess with enemies sensors, scanners
+		  and combat equipment
+		- Also defensive in nature - you can try to block enemy EW 
+		  attacks
+		- Jam scanner, gravitron, magnetron, radar
+		- Interefere with target aquistion, tracking speeds
+		- ECM burst
+		- Interfere with communcation channels
+		- Interfere with FTL transit
+		- Interfere with shield regeneration
+	- Objects in game
+		- Asteroids
+		- Cataclysmic Variable
+		- Blackhole
+		- Pulsar
+		- Red Giant
+		- Radioactive star
+			- Too much UV - damages shields, etc
+	- Ingame chat
+		- There should be "lag" delays for when communicating far away
+			- "mainframe" is located in core world, so time to send
+			  is measured by how far you are (maybe 1ms/system hop)
+		- Private encrypted channels
+			- If you get the key you can eavesdrop
+	- Small ships can be temporarily "pinned"
+		- Gravity wells
+		- Gravity gun shots
+		- Useful since target tracking is worse on faster moving
+		  objects
+	- Soverignty
+		- Factions (or just players) can claim a system or a cluster
+		  for themselves
+		- Construct a control beacon to claim sovereighty
+	- Abilities
+		- Gravitron
+			- Detect gravity flucations
+			- Finds previously unseen asteroid belts
+				(25% are created hidden)
+			- Finds previously unseen planets
+				(They'll show up on your screen though if you
+			         wander close to them)
+			- Basically finds things with sufficient mass
+			- Mass sensitivity can be upgraded to find smaller
+			- Small enough will find magnetometric
+				- but this expensive...
+		- Ladar
+			- Detects gas concentrations
+		- Magnetometric
+			- Detect magnetic / other emissions
+			- Useful for finding salvage and other ruins
