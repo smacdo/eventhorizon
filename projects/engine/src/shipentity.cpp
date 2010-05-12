@@ -1,4 +1,4 @@
-#include "shipentity.h"
+#include "engine/shipentity.h"
 #include <QString>
 
 ShipEntity::ShipEntity( QObject * parent )

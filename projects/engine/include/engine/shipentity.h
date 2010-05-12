@@ -4,8 +4,8 @@
 #include <QObject>
 #include <QString>
 
-#include "position.h"
-#include "physicsinfo.h"
+#include "shared/position.h"
+#include "engine/physicsinfo.h"
 
 class ShipEntity : public QObject
 {

@@ -1,15 +1,14 @@
 #include <QCoreApplication>
 #include <QTimer>
-#include "horizon.h"
 
-#include "shipentity.h"
+#include "engine/shipentity.h"
 
 int main( int argc, char * argv[] )
 {
 	QCoreApplication app( argc, argv );
 	QTimer::singleShot( 0, &app, SLOT(quit()) );
 
-	if ( QGLFormat::hasOpenGL() )
+/*	if ( QGLFormat::hasOpenGL() )
 	{
 		QMEssageBox::information( 0,
 			"Event Horizon",
@@ -17,7 +16,7 @@ int main( int argc, char * argv[] )
 		);
 
 		return -1;
-	}
+	}*/
 	
 	ShipEntity ship;
 	ship.setName("Scott");
