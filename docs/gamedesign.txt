@@ -325,7 +325,65 @@ Gameplay Features
 			- Can be towed around
 			- Could be captured or destroyed
 			- Access controll is possible by owner
-
+	9. Tech
+		- Tech controls what can and cannot be built or constructed
+		- Tech does not control what you can buy
+			- (You could buy a teched up ship, but not build it)
+		- Multiple classes of tech
+			- Class I: Common tech, cheap and easy to purchase
+			- Class II: Uncommon tech, moderately expensive, most
+			  of the core techs (ship building, etc) are available
+			  to purchase.
+			- Class 3: Rare tech. This tech is either hard to
+			  purchase at NPC markets, must be researched wth
+			  upgraded labs along skill tree, or needs to be
+			  discoered
+			- Class 4: Very rare tech. This tech is probably
+			  impossible to purchase, and needs to be researched.
+			  Tech components could be discovered in rare loot
+			  that would help you discover this tech.
+			- Class 5: This is very, very rare tech. Either
+			  reserved for very powerful rare end game items, OR
+			  super rare special drops
+		- Two different types of tech
+			- "Core" tech, which represents large feats such as
+			  ship building. These open up smaller, individual techs
+			  that you can research
+			- "Specialized" tech, which represents specializations
+			  of core tech. These are simpler to research, and
+			  have many variations (to allow lots of customization)
+			- ex: To build carriers, you would
+				- Research Ship Building I, II, III
+				- Research Reactors I, II
+				- Research Ship Controls I, II, III
+			- ex: To build carrier capacity, you would
+				- Research building carriers
+				- Research extra carrier capacity
+		- Players can discover "tech archives", which are incomplete
+		  but useful tech information. These archives can be applied
+		  towards a specific research area for a certain number of
+		  points.
+			- Find small class 4 ship building tech might apply 10%
+			  research to any ship building research
+			- These can be sold
+		- Players can sell their tech research as "blueprints"
+			- These blueprints allow others to construct
+			- Blueprints do NOT fill in tech tree
+	- Weapons
+		- Point Weapons
+			- Turret (laser, neutron, plasma)
+			- Missile Pod
+			- Rail gun
+		- Directed Weapons
+			- linear accelerated cannon
+			- ion cannon
+			- laser lance
+			- unguided missile
+			- missile swarn
+		- Misc
+			- Plasma torpedo
+			- Mine drop
+			
 MISC:
 	- There are undiscovered systems in the galaxy.
 		- Some are reached through unmapped jump gates
