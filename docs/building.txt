@@ -1,0 +1,30 @@
+Notes for Windows
+---------------------
+
+1. Install Ogre 1.7.1 SDK for Windows
+	- C:\SDKs
+
+2. Set up environment variable "OGRE_SDK_PATH" as path to SDK root
+	(eg, "C:\SDKs\OgreSDK_vc10_v1-7-1")
+
+2. Install Boost
+	- http://www.boostpro.com/download
+	- (Requires a qucik registration, sorry!)
+	- set BOOST_ROOT env var
+
+2. Install CMake for Windows
+	http://www.cmake.org/cmake/resources/software.html
+
+3. Follow the following instructions for setting up Git
+	http://nathanj.github.com/gitguide/tour.html
+
+4. Run CMake
+	- Where is source code: C:/Users/scott/Projects/eventhorizon
+	- Where to build the binaries: C:/Users/scott/Projects/eventhorizon/game
+	- Click "configure"
+	- Click "generate"
+	- Visual Studio SLN should be in the build directory (yuck)
+	
+5. Copy Ogre SDK debug libraries
+	- From: C:\SDKs\OgreSDK_vc10_v1-7-1\bin\debug
+		- Just copy them all unless you feel like being picky

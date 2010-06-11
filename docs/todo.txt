@@ -1,0 +1,6 @@
+
+Write a windows batch file / c# script / SOMETHING that will attempt to automate any and all of the following processes
+	1. Initial creation of cmake
+	2. Creation of sln from cmake, launch visual studio
+	3. commit
+	4. push changes back

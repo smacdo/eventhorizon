@@ -72,12 +72,15 @@ endif ()
 set(OGRE_LIBRARY_NAMES "OgreMain${OGRE_LIB_SUFFIX}")
 get_debug_names(OGRE_LIBRARY_NAMES)
 
+message("LOOKING FOR OGRE IN $ENV{OGRE_SDK}")
+
 # construct search paths from environmental hints and
 # OS specific guesses
 if (WIN32)
   set(OGRE_PREFIX_GUESSES
     ${ENV_PROGRAMFILES}/OGRE
     C:/OgreSDK
+	$ENV{OGRE_SDK_PATH}
   )
 elseif (UNIX)
   set(OGRE_PREFIX_GUESSES
