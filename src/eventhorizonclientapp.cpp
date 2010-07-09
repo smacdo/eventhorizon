@@ -24,8 +24,10 @@ void EventHorizonClientApp::createScene()
     // Create the player's ship
     //
     Ogre::Entity* playerMesh = mSceneMgr->createEntity( 
-        "PlaerShip", "models/razor.mesh" );
+        "PlayerShip", "razor.mesh" );
     Ogre::SceneNode* playerNode = root->createChildSceneNode("PlayerNode");
+
+    playerMesh->setMaterialName("razor");
 
     playerNode->attachObject( playerMesh );
 }

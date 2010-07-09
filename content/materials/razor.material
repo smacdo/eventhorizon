@@ -1,0 +1,30 @@
+
+material razor
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture textures/razor.jpg
+			}
+		}
+	}
+}
+
+material Material__25
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture textures/razor.jpg
+			}
+		}
+	}
+}

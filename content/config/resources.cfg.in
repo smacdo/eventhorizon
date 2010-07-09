@@ -1,6 +1,9 @@
 [Essential]
 Zip=@OGRE_MEDIA_DIR@/packs/SdkTrays.zip
-FileSystem=@OGRE_MEDIA_DIR@
+Zip=@GAME_CONTENT_DIR@/OgreCore.zip
 
 [BaseGame]
 FileSystem=@GAME_CONTENT_DIR@
+FileSystem=@GAME_CONTENT_DIR@/models
+FileSystem=@GAME_CONTENT_DIR@/textures
+FileSystem=@GAME_CONTENT_DIR@/materials
