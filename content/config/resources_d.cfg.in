@@ -1,2 +1,5 @@
 [Essential]
 Zip=@OGRE_MEDIA_DIR@/packs/SdkTrays.zip
+
+[BaseGame]
+FileSystem=@GAME_CONTENT_DIR@

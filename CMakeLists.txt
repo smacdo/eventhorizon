@@ -95,7 +95,7 @@ find_package(OIS REQUIRED)
 ###########################################################################
 # Commands to set up the project's staging area
 ###########################################################################
-# Copy needed binary / release DLLS
+set(GAME_CONTENT_DIR "${CMAKE_SOURCE_DIR}/content")
 		   
 			   
 ###########################################################################
