@@ -1,0 +1,2 @@
+PluginFolder=@OGRE_PLUGIN_DIR_DBG@
+Plugin=@OGRE_RENDER_SYSTEM_DBG@
